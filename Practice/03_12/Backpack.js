@@ -37,4 +37,17 @@ class Backpack {
   }
 }
 
-export default Backpack;
+class fishbowl {
+  constructor(name, gallons, food, saltwater, red, blue, striped) {
+    this.name = name;
+    this.gallons = gallons;
+    this.food = food;
+    this.saltwater = saltwater;
+    this.red = red;
+    this.blue = blue;
+    this.striped = striped;
+  }
+}
+
+export default fishbowl;
+// export default Backpack;
